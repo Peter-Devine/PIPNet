@@ -1,8 +1,9 @@
 # レポの使い方
 
-1. 最初に顔検出モデルを作成するために`PIPNet/FaceBoxesV2/utils/make.sh`を実行
-2. `PIPNet/logs`と`PIPNet/snapshots`を`mkdir`
-3. [学習済みのモデル](https://drive.google.com/drive/folders/17OwDgJUfuc5_ymQ3QruD8pUnh5zHreP2?usp=sharing)をダウンロードし、PIPNet/snapshotsに展開
+1. Pipパケージをインストール`pip install -r requirements.txt`
+2. 顔検出モデルを作成するために`PIPNet/FaceBoxesV2/utils/make.sh`を実行
+3. `PIPNet/logs`と`PIPNet/snapshots`を`mkdir`
+4. [学習済みのモデル](https://drive.google.com/drive/folders/17OwDgJUfuc5_ymQ3QruD8pUnh5zHreP2?usp=sharing)をダウンロードし、PIPNet/snapshotsに展開
 
 # Pixel-in-Pixel Net: Towards Efficient Facial Landmark Detection in the Wild
 ## Introduction
