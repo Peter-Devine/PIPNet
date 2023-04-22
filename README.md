@@ -1,3 +1,9 @@
+# レポの使い方
+
+1. 最初に顔検出モデルを作成するために`PIPNet/FaceBoxesV2/utils/make.sh`を実行
+2. `PIPNet/logs`と`PIPNet/snapshots`を`mkdir`
+3. [学習済みのモデル](https://drive.google.com/drive/folders/17OwDgJUfuc5_ymQ3QruD8pUnh5zHreP2?usp=sharing)をダウンロードし、PIPNet/snapshotsに展開
+
 # Pixel-in-Pixel Net: Towards Efficient Facial Landmark Detection in the Wild
 ## Introduction
 This is the code of paper [Pixel-in-Pixel Net: Towards Efficient Facial Landmark Detection in the Wild](https://arxiv.org/abs/2003.03771). We propose a novel facial landmark detector, PIPNet, that is **fast**, **accurate**, and **robust**. PIPNet can be trained under two settings: (1) supervised learning; (2) generalizable semi-supervised learning (GSSL). With GSSL, PIPNet has better cross-domain generalization performance by utilizing massive amounts of unlabeled data across domains. 

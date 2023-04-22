@@ -1,13 +1,13 @@
-from detector import Detector
+from PIPNet.FaceBoxesV2.detector import Detector
 import cv2, os
 import numpy as np
 import torch
 import torch.nn as nn
-from utils.config import cfg
-from utils.prior_box import PriorBox
-from utils.nms_wrapper import nms
-from utils.faceboxes import FaceBoxesV2
-from utils.box_utils import decode
+from PIPNet.FaceBoxesV2.utils.config import cfg
+from PIPNet.FaceBoxesV2.utils.prior_box import PriorBox
+from PIPNet.FaceBoxesV2.utils.nms_wrapper import nms
+from PIPNet.FaceBoxesV2.utils.faceboxes import FaceBoxesV2
+from PIPNet.FaceBoxesV2.utils.box_utils import decode
 import time
 
 class FaceBoxesDetector(Detector):
